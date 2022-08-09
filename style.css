@@ -1,7 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 header {
   background-image: url("../../assets/mobile/image-header.jpg");
-  padding: 32px 24px 135px;
+  padding: 32px 24px 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .menu-logo {
+  height: 17px;
+}
+header h1 {
+  margin-top: 88px;
+  margin-bottom: 52px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+header .arrow-wrapper {
+  text-align: center;
+}
+
+.first-section__learn-more img {
+  width: 100%;
+}
+.first-section__text {
+  padding: 64px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.first-section__text h1 {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  color: #23303e;
+}
+.first-section__text p {
+  color: #818498;
+  line-height: 30px;
+}
+.first-section__text button {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 3px;
+}
+.first-section__button--yellow {
+  box-shadow: inset 0px -10px 0px 0px #fad40035;
+}
+.first-section__button--red {
+  box-shadow: inset 0px -10px 0px 0px #fe796735;
+}
+
+.second-section div {
+  padding: 400px 24px 59px;
+}
+.second-section__cherry {
+  background-image: url("../../assets/mobile/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.second-section__tangerina {
+  background-image: url("../../assets/mobile/image-photography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

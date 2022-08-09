@@ -1,0 +1,44 @@
+@use '../utils' as *;
+
+.first-section {
+  &__learn-more {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+
+    h1 {
+        @include titulos($font-size: 32px);
+        color: $very-dark-desaturated-blue;
+    }
+
+    p {
+        color: $dark-grayish-blue;
+        line-height: 30px;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        padding: 5px;
+        @include titulos($font-size: 15px);
+        border-radius: 3px;
+    }
+  }
+  
+  &__button--yellow {
+    box-shadow:inset 0px -10px 0px 0px $yellow-border;
+}
+
+  &__button--red {
+    box-shadow:inset 0px -10px 0px 0px $soft-red-border;
+  }
+  
+}

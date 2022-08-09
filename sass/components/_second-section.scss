@@ -1,0 +1,23 @@
+.second-section {
+
+    div {
+        padding: 400px 24px 59px;
+    }
+
+    
+    &__cherry {
+        background-image: url('../../assets/mobile/image-graphic-design.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__tangerina {
+        background-image: url('../../assets/mobile/image-photography.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+   
+}
