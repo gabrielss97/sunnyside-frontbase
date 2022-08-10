@@ -74,11 +74,104 @@ header .arrow-wrapper {
   background-repeat: no-repeat;
   background-position: center;
 }
+.second-section__cherry h1,
+.second-section__cherry p {
+  color: #25564b;
+}
 .second-section__tangerina {
   background-image: url("../../assets/mobile/image-photography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.second-section__tangerina h1,
+.second-section__tangerina p {
+  color: #19536b;
+}
+.second-section h1 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.second-section p {
+  line-height: 27px;
+  text-align: center;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  align-items: center;
+  padding: 64px 24px;
+}
+.third-section h1 {
+  font-family: "Fraunces";
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  color: #a7abae;
+  letter-spacing: 4px;
+}
+.third-section__testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  text-align: center;
+}
+.third-section__testimonial img {
+  border-radius: 50%;
+  width: 72px;
+}
+.third-section__testimonial p {
+  color: #5a636c;
+  line-height: 32px;
+}
+.third-section__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 9px;
+}
+.third-section__name {
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  color: #23303e;
+}
+.third-section__job {
+  color: #a7abae;
+}
+
+.fourth-section div {
+  display: flex;
+}
+.fourth-section img {
+  width: 50%;
+}
+
+footer {
+  background-color: #90D4C6;
+  padding: 80px 40px;
+  text-align: center;
+}
+footer .navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+footer .social-medias {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  color: #458c7e;
+  text-decoration: none;
 }
 
 * {

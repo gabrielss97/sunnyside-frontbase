@@ -1,0 +1,49 @@
+@use "../utils" as *;
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  align-items: center;
+  padding: 64px 24px;
+
+  h1 {
+    @include titulos($font-size: 16px);
+    color: $grayish-blue;
+    letter-spacing: 4px;
+  }
+
+  &__testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    text-align: center;
+
+    img {
+        border-radius: 50%;
+        width: 72px;
+    }
+
+    p {
+        color: $very-dark-grayish-blue;
+        line-height: 32px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 9px;
+  }
+
+  &__name {
+    @include titulos($font-size: 18px);
+    color: $very-dark-desaturated-blue;
+  }
+
+  &__job {
+    color: $grayish-blue;
+  }
+}

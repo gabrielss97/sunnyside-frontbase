@@ -1,23 +1,41 @@
+@use "../utils" as *;
+
 .second-section {
+  div {
+    padding: 400px 24px 59px;
+  }
 
-    div {
-        padding: 400px 24px 59px;
+  &__cherry {
+    background-image: url("../../assets/mobile/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1,
+    p {
+      color: $dark-desaturated-cyan;
     }
+  }
 
-    
-    &__cherry {
-        background-image: url('../../assets/mobile/image-graphic-design.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+  &__tangerina {
+    background-image: url("../../assets/mobile/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1,
+    p {
+      color: $dark-blue;
     }
+  }
 
-    &__tangerina {
-        background-image: url('../../assets/mobile/image-photography.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  h1 {
+    @include titulos($font-size: 28px);
+    margin-bottom: 27px;
+  }
 
-   
+  p {
+    line-height: 27px;
+    text-align: center;
+  }
 }

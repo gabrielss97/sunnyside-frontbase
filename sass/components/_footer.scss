@@ -1,0 +1,24 @@
+@use "../utils" as *;
+
+footer {
+  background-color: $footer-background;
+  padding: 80px 40px;
+  text-align: center;
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .social-medias {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a {
+    color: $dark-moderate-cyan;
+    text-decoration: none;
+  }
+}
