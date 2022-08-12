@@ -22,9 +22,10 @@ header {
     color: white;
     text-transform: uppercase;
     @include titulos();
-  }
+  } 
 
   .arrow-wrapper {
     text-align: center;
   }
 }
+
